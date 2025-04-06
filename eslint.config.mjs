@@ -13,16 +13,8 @@ const compat = new FlatCompat({
 });
 
 export default [
-  {
-    ignores: ['dist', '.astro'],
-  },
+  { ignores: ['dist', '.astro'] },
   ...compat.extends('plugin:@typescript-eslint/recommended', 'prettier', 'plugin:prettier/recommended'),
-  {
-    languageOptions: {
-      parser: tsParser,
-      ecmaVersion: 2018,
-      sourceType: 'module',
-    },
-    rules: {},
-  },
+  { languageOptions: { parser: tsParser, ecmaVersion: 2018, sourceType: 'module' }, rules: {} },
+  { files: ['src/env.d.ts'], rules: { '@typescript-eslint/triple-slash-reference': 'off' } },
 ];
