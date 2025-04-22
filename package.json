@@ -14,24 +14,24 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/cloudflare": "^12.4.0",
+    "@astrojs/cloudflare": "^12.5.0",
     "@astrojs/sitemap": "^3.3.0",
-    "@astrojs/tailwind": "^5.1.0",
-    "astro": "^5.6.1",
-    "tailwindcss": "^3.4.14"
+    "@astrojs/tailwind": "^5.1.5",
+    "astro": "^5.7.4",
+    "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.8.0",
-    "@typescript-eslint/eslint-plugin": "^8.13.0",
-    "@typescript-eslint/parser": "^8.0.1",
-    "eslint": "^9.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint": "^9.25.1",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "husky": "^9.1.4",
-    "lint-staged": "^15.2.10",
-    "prettier": "^3.3.3",
+    "eslint-plugin-prettier": "^5.2.6",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.1",
+    "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
-    "typescript": "^5.5.4"
+    "typescript": "^5.8.3"
   }
 }
