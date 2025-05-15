@@ -17,7 +17,7 @@
     "@astrojs/cloudflare": "^12.5.0",
     "@astrojs/sitemap": "^3.3.0",
     "@astrojs/tailwind": "^5.1.5",
-    "astro": "^5.7.4",
+    "astro": "^5.7.12",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
